@@ -50,8 +50,6 @@ services:
   db:
     image: mariadb:10.11
     restart: always
-    ports:
-      - "3306:3306"
     environment:
       - MARIADB_ROOT_PASSWORD=ctfd
       - MARIADB_USER=ctfd
